@@ -1,3 +1,7 @@
+//
+//@Birth:created by zuhiul on 2019-09-14
+//@Solution:https://zuhiul.github.io/2019/09/14/CF_761_E/#more
+//
 #include<bits/stdc++.h>
 using namespace std;
 int n;
