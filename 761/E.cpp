@@ -15,9 +15,7 @@ void lay(int ind, int pre, long long x,long long y, int dir, int floor) {
 	for(int i:son[ind]) {
 		if(i==pre) continue;
 		if(dir_ind==(dir^1)) dir_ind++;
-		//printf("%d %d\n", dir, dir_ind);
 		if(dir_ind>3) {
-		//	printf("%d %d\n", dir, dir_ind);
 			printf("NO");
 			exit(0);
 		}
@@ -33,21 +31,12 @@ int main(){
 		son[from].push_back(to);
 		son[to].push_back(from);
 	}
-////for(int i = 1;i<=n;i++) {
-////	printf("%d\t", i);
-////	for(int j : son[i]) printf("%d ", j);
-////	printf("\n");
-////}
 	lay(1,0,0,0,-1,50);
-	for(int i = 1;i<=n;i++) {
-		if(!has_position[i]) {
-			printf("NO\n");
-			return 0;
-		}
+	for(int i = 1;i<=n;i++) if(!has_position[i]) {
+		printf("NO\n");
+		return 0;
 	}
 	printf("YES\n");
-	for(int i = 1;i<=n;i++) {
-		printf("%lld %lld\n", ansx[i], ansy[i]);
-	}
+	for(int i = 1;i<=n;i++) printf("%lld %lld\n", ansx[i], ansy[i]);
 	return 0;
 }
