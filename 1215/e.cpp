@@ -1,3 +1,7 @@
+//
+//@Birth:created by zuhiul on 2019-09-16
+//@Solution:https://zuhiul.github.io/2019/09/16/CF_1215_E/#more
+//
 #include<algorithm>
 #include<iostream>
 #include<vector>
@@ -27,12 +31,6 @@ int main(){
             }
         }
     }
-////for(int i = 0;i<=4;i++) {
-////    for(int j = 0;j<=4;j++) {
-////        cout<<value[i][j]<<' ';
-////    }
-////    cout<<endl;
-////}
     for(int i = 0;i<(1<<20);i++) ans[i] = inf;
     ans[0] = 0;
     for(int mask = 0;mask<(1<<20);mask++) {
