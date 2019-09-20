@@ -1,3 +1,7 @@
+//
+//@Birth:created by zuhiul on 2019-09-20
+//@Solution:https://zuhiul.github.io/2019/09/20/CF/CF_1187_E/#more
+//
 #include<bits/stdc++.h>
 using namespace std;
 const int maxm = 2e5+10;
