@@ -4,9 +4,7 @@ const int maxm = 1e5+10;
 int n, q;
 long long a[maxm];
 void input() {
-	//scanf("%d",&n);
 	cin>>n;
-	//for(int i = 0;i<n;i++) scanf("%lld", a+i);
 	for(int i = 0;i<n;i++) cin>>a[i];
 	sort(a,a+n);
 	reverse(a,a+n);
@@ -17,7 +15,6 @@ long long get_ans(int len) {
 	long long rlen = len, cnt = 1;
 	for(int i = 1;i<n;) {
 		int r = min(n-1ll,i+rlen-1);
-		//cout<<i<<' '<<r<<' '<<cnt<<endl;
 		ans += (a[r] - a[i-1])*cnt;
 		cnt++;
 		i = r+1;
