@@ -29,7 +29,21 @@ my codeforces solution
 
 [1215E](https://codeforces.com/problemset/problem/1215/E) : [solution](https://github.com/zuhiul/codeforce-solution/blob/master/1215/E.cpp)
 
-[1257D](https://codeforces.com/problemset/problem/1257/D_greedy) : [solution](https://github.com/zuhiul/codeforce-solution/blob/master/1257/D_greedy.cpp)
+[1257D](https://codeforces.com/problemset/problem/1257/D) : [solution](https://github.com/zuhiul/codeforce-solution/blob/master/1257/D.cpp)
+
+[1260A](https://codeforces.com/problemset/problem/1260/A) : [solution](https://github.com/zuhiul/codeforce-solution/blob/master/1260/A.cpp)
+
+[1260B](https://codeforces.com/problemset/problem/1260/B) : [solution](https://github.com/zuhiul/codeforce-solution/blob/master/1260/B.cpp)
+
+[1260C](https://codeforces.com/problemset/problem/1260/C) : [solution](https://github.com/zuhiul/codeforce-solution/blob/master/1260/C.cpp)
+
+[1262A](https://codeforces.com/problemset/problem/1262/A) : [solution](https://github.com/zuhiul/codeforce-solution/blob/master/1262/A.cpp)
+
+[1262B](https://codeforces.com/problemset/problem/1262/B) : [solution](https://github.com/zuhiul/codeforce-solution/blob/master/1262/B.cpp)
+
+[1262C](https://codeforces.com/problemset/problem/1262/C) : [solution](https://github.com/zuhiul/codeforce-solution/blob/master/1262/C.cpp)
+
+[1262D](https://codeforces.com/problemset/problem/1262/D) : [solution](https://github.com/zuhiul/codeforce-solution/blob/master/1262/D.cpp)
 
 [14E](https://codeforces.com/problemset/problem/14/E) : [solution](https://github.com/zuhiul/codeforce-solution/blob/master/14/E.cpp)
 
